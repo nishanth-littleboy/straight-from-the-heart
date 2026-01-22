@@ -27,4 +27,3 @@ Visuals: Animated penguin video (cat.mp4).
 - You **cannot** post, upload, or share this project online in any form (e.g., Instagram reels, YouTube videos, websites, or any public platform).  
 - Using this free code publicly is **prohibited**.
 - Any violation will be considered **copyright infringement**, and I reserve the right to report it.
-- 
