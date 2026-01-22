@@ -22,6 +22,25 @@ A beautiful, interactive web-based gift featuring synced lyrics, a starry backgr
  - Song: "I think they call this love" (bg.mp3).
  - Visuals: Animated penguin video (cat.mp4).
 
+ ##🚀Execution Guide:
+
+ Ensure you have all the necessary files in a single folder:
+
+ - index.html (The structure)
+ - style.css (The purple/starry theme)
+ - script.js (The lyric-sync logic)
+ - music.mp3 (The background track)
+ - cat.mp4 (The final surprise video)
+
+ 2. Running the Project:
+ - Since modern browsers block "Auto-play" and some local file requests, you must run this using a Local Server.
+
+Option A: Using VS Code
+ - Open your project folder in VS Code.
+ - Open the terminal (Ctrl + `).
+ - Type python -m http.server 8000 and press Enter.
+ - Open your browser and visit: http://localhost:8000.
+
 ##⚠️ License & Usage
 
 - This free version is strictly for **"personal use only"**.  
