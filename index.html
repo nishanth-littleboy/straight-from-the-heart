@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="./favicon.ico?v=2">
+  <link rel="shortcut icon" href="./favicon.ico?v=2">
+  <title>For You!</title>
+</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">     
+</head>
+<body>
+    <div id="stars-container"></div>
+
+    <div id="section1" class="container">
+        <div class="heart-icon" style="font-size: 60px;">💜</div>
+        <h1>
+            <span class="dim-text">I made something</span><br>
+            <span class="bright-blue-text">for you</span>
+        </h1>
+        <p>Something small... but straight from the heart ✨</p>
+        <button onclick="nextSection(1)">Open it 💜</button>
+    </div>
+
+    <div id="section2" class="container hidden">
+        <video id="final-video" class="hidden" loop muted playsinline>
+            <source src="cat.mp4" type="video/mp4">
+        </video>
+        
+        <div id="lyrics-container">
+            <h2 id="lyric-text"></h2>
+        </div>
+    </div>
+
+    <audio id="bg-music">
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+    <div class="watermark">@nishanth</div>
+    <script src="script.js"></script>
+</body>
+</body>
+</html>

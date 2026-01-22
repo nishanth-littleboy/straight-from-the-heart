@@ -1,0 +1,126 @@
+body {
+    background: radial-gradient(125% 125% at 50% 90%, #000000 40%, #2b092b 100%);
+    color: white;
+    font-family: 'Arial Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+#stars-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.star {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+}
+
+@keyframes twinkle {
+    0%, 100% { opacity: 0.15; transform: scale(1); }
+    50% { opacity: 0.45; transform: scale(1.5); }
+}
+
+.container {
+    text-align: center;
+    z-index: 10;
+}
+
+.animate-smooth {
+    animation: blurInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes blurInUp {
+    0% { 
+        opacity: 0; 
+        filter: blur(15px); 
+        transform: translateY(20px) scale(0.95); 
+    }
+    100% { 
+        opacity: 1; 
+        filter: blur(0); 
+        transform: translateY(0) scale(1); 
+    }
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    z-index: 15;
+}
+
+
+h1 { line-height: 1.1; margin-bottom: 20px; }
+
+.dim-text {
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 0.945); 
+    font-weight: 600;
+}
+
+.bright-blue-text {
+    font-size: 4.9rem;
+    color: #00d2ff;
+    font-weight: 900;
+    filter: drop-shadow(0 0 15px rgba(0, 210, 255, 0.6));
+}
+
+.bright-blue-text {
+    color: #00d2ff; 
+    filter: drop-shadow(0 0 20px rgba(0, 210, 255, 0.8)); 
+}
+
+#lyric-text {
+    font-size: 3.0rem;
+    font-weight: 800;
+    text-shadow: 0 0 15px rgba(155, 77, 255, 0.5); 
+}
+
+.hidden { display: none !important; }
+
+.animate-smooth {
+    animation: blurInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+video {
+    width: 270px; 
+    height: auto;
+    border-radius: 20px;
+    margin-top: 50px; 
+    margin-bottom: 3px; 
+    z-index: 11;
+}
+
+.watermark {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.3); 
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+    pointer-events: none; 
+    z-index: 100; 
+}
+
+button {
+    background-color: #a855f7;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
