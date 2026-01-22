@@ -35,7 +35,7 @@ A beautiful, interactive web-based gift featuring synced lyrics, a starry backgr
  2. Running the Project:
  - Since modern browsers block "Auto-play" and some local file requests, you must run this using a Local Server.
 
-  Option A: Using VS Code
+   Option A: Using VS Code
  - Open your project folder in VS Code.
  - Open the terminal (Ctrl + `).
  - Type python -m http.server 8000 and press Enter.
